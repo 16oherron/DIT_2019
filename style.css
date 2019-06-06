@@ -1,0 +1,58 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: #000000;
+}
+
+html, body {
+  box-sizing: border-box;
+  background-color: #fbb6fa;
+  height: 100%;
+  padding: 5px;
+  margin: 0px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #b4ffc4;
+  border-radius: 5px;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #d4c2ff;
+  border-radius: 5px;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #a8c8ff;
+  border-radius: 30px;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #9ea5ff;
+  border-radius: 30px;
+  font-size: 4vw;
+}
+
+.container > div:nth-child(5n) {
+  background-color: #a3ffdb;
+  border-radius: 5px;
+}
+a:hover{
+  font-size: 6vw;
+  color: #ff0000;
+  transition: 0.3s;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #000187;
+    transition: 0.2s;
+}
+a.menua:link, a.menua:visited{
+    color: #000187;
+    font-size: 2vw;
+}
+ul{
+  list-style-type: circle;
+}

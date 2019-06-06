@@ -1,0 +1,47 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m x x x x x x x x x x"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "m m c c c c c c c c c c"
+    "f f f f f f f f f f f f"
+}
+
+.header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+.content_1 {
+    grid-area: x;
+}
+.content_2 {
+    grid-area: c;
+}
+
+.footer {
+    grid-area: f;
+}
